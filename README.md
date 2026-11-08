@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+Isi README dari GitHub
 # 🖨️ Kalkulator Struk Kasir (Casio HR-8RC Style) — jQuery
 
 Aplikasi kalkulator web interaktif berbasis **jQuery 3.7.1** yang mengadaptasi desain kalkulator cetak fisik **Casio HR-8RC (Top-Feed Printing Calculator)** untuk tugas mata kuliah **Pemrograman Aplikasi Web (PAW)**.
