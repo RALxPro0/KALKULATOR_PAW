@@ -75,10 +75,9 @@ Mengatur seluruh logika interaktif menggunakan **jQuery**:
 
 1. Clone atau unduh repositori ini:
    ```bash
-   git clone https://github.com/USERNAME_ANDA/NAMA_REPO_ANDA.git
+   git clone https://github.com/RALxPro0/KALKULATOR_PAW.git
    ```
 2. Buka file **`index.html`** langsung di browser (Chrome, Edge, Firefox, atau Safari).
 3. Pastikan perangkat terhubung ke internet saat pertama kali membuka agar CDN **jQuery 3.7.1** dapat dimuat.
 =======
 # KALKULATOR_PAW
->>>>>>> e0874dfdbce5e96f178f893c457084c453f2bf07
