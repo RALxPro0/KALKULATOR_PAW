@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="matte">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kalkulator Casio HR-8RC - Reza Abdul Latif</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="scene">
+
+    <section class="paper-assembly">
+      <div class="paper-roll-top"><div class="roll-core"></div></div>
+      <div class="paper-sheet" id="paperSheet">
+        <header class="receipt-header">
+          <div class="zero-dots">••••• 0 •••••</div>
+          <h2 class="receipt-name">REZA ABDUL LATIF</h2>
+          <p class="receipt-nim">NIM 255150719111001</p>
+          <div class="receipt-meta" id="receiptMeta">PAW • PRINT ON</div>
+        </header>
+        <div class="receipt-lines" id="receipt">
+          <div class="empty">Siap mencetak perhitungan...</div>
+        </div>
+        <p class="receipt-hint">Klik baris angka untuk memakai hasilnya lagi</p>
+      </div>
+    </section>
+
+    <main class="calc-body" id="calcBody">
+      <div class="printer-slot-wrap">
+        <div class="printer-slot"><div class="cutter-teeth"></div></div>
+        <div class="slot-labels">
+          <span>▲ PAPER SLOT</span>
+          <span>12 DIGITS • HR-8RC</span>
+        </div>
+      </div>
+
+      <section class="lcd-bezel">
+        <div class="bezel-header">
+          <div class="identity">
+            <h1>Reza Abdul Latif</h1>
+            <p>NIM 255150719111001</p>
+          </div>
+          <span class="badge-model">HR-8RC</span>
+        </div>
+
+        <div class="display" id="display">
+          <div class="lcd-status">
+            <span class="step-counter" id="stepCounter">000</span>
+            <span class="expr" id="expr"></span>
+            <span class="prt-indicator">PRT</span>
+          </div>
+          <div class="result" id="result">0</div>
+        </div>
+      </section>
+
+      <div class="printer-keys">
+        <button class="p-key" id="btnFeed">FEED</button>
+        <button class="p-key reprint" id="btnReprint">REPRINT</button>
+        <button class="p-key tear" id="clearHistory">✂ ROBEK</button>
+        <button class="p-key sfx" id="btnSound">🔊 SFX</button>
+        <button class="p-key theme-btn" id="theme">◐ GLASS</button>
+      </div>
+
+      <div class="keys">
+        <button class="key" data-action="back">⌫</button>
+        <button class="key" data-num="7">7</button>
+        <button class="key" data-num="8">8</button>
+        <button class="key" data-num="9">9</button>
+        <button class="key op" data-op="/">÷</button>
+
+        <button class="key pink" data-action="ce">C</button>
+        <button class="key" data-num="4">4</button>
+        <button class="key" data-num="5">5</button>
+        <button class="key" data-num="6">6</button>
+        <button class="key op" data-op="*">×</button>
+
+        <button class="key pink" data-action="clear">AC</button>
+        <button class="key" data-num="1">1</button>
+        <button class="key" data-num="2">2</button>
+        <button class="key" data-num="3">3</button>
+        <button class="key op sub" data-op="-">−</button>
+
+        <button class="key" data-num="0">0</button>
+        <button class="key" data-num="00">00</button>
+        <button class="key" data-action="dot">.</button>
+        <button class="key eq" data-action="equals">=</button>
+        <button class="key op plus" data-op="+">+</button>
+      </div>
+
+      <div class="bottom-bar">
+        <button class="mini-key" data-action="sign">± TANDA</button>
+        <span class="body-footer">JQUERY PRINTING CALCULATOR</span>
+      </div>
+    </main>
+
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
